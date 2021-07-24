@@ -1,20 +1,29 @@
 h1{
     color:#272343;
     text-align:center;
-    font-size:50px;
-    border-bottom:10px dotted #272343;
+    font-size:70px;
+    margin: 80px;
+    border-bottom:20px dotted #272343;
+    font-family:georgia;
 }
 
 h2{
     color:#272343;
     font-size: 35px;
+    font-family:georgia;
 }
 h3{
     color:#272343;
+    font-family:georgia;
 }
 
 body {
+ 
     background-color:white;
+}
+
+p {
+    font-family:Georgia;
 }
 .shops-container{
     color:#2d334a;
@@ -25,13 +34,16 @@ body {
     margin:0 auto;
 }
 
-.header{
-    background-color:#bae8e8;
+.header {
+    background-color:#272343;
     height:65px;
+    color:#e3f6f5;
+    font-family:georgia;
 }
+
 .header > ul >li{
     list-style:none;
-    background-color:#bae8e8;
+    background-color: #272343;
     float:left;
     padding:20px 30px ;
 }
@@ -41,5 +53,9 @@ body {
 }
 
 .recommend{
+    display:flex;
+}
+
+.recommend2 {
     display:flex;
 }
