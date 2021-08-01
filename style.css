@@ -3,6 +3,7 @@ h1{
     text-align:center;
     font-size:70px;
     margin: 80px;
+    padding:40px;
     border-bottom:20px dotted #272343;
     font-family:georgia;
 }
@@ -10,11 +11,18 @@ h1{
 h2{
     color:#272343;
     font-size: 35px;
-    font-family:georgia;
+    margin-top:100px;
 }
+.about h2{
+    font-size:50px;
+}
+.tapioca h2{
+    font-size:50px;
+}
+
 h3{
     color:#272343;
-    font-family:georgia;
+
 }
 
 body {
@@ -22,40 +30,314 @@ body {
     background-color:white;
 }
 
-p {
-    font-family:Georgia;
-}
 .shops-container{
-    color:#2d334a;
+    color:#5b5f6d;
     background-color: #e3f6f5;
-}
-.shops{
-    width: 900px;
-    margin:0 auto;
+    font-family:georgia;
+
 }
 
-.header {
-    background-color:#272343;
-    height:65px;
-    color:#e3f6f5;
-    font-family:georgia;
+.shops{
+    width: 900px;
+    margin:0 auto
 }
+
 
 .header > ul >li{
     list-style:none;
     background-color: #272343;
     float:left;
-    padding:20px 30px ;
+    margin-top:5px;
+    margin-right:40px;
+}
+.header ul li ul li{
+    margin-top:20px;
+}
+.header ul li ul{
+    display: none;
+}
+.header ul li:hover ul{
+    display: block;
 }
 
+
+.header  {
+    background-color: #272343;
+    position: fixed;
+    width: 100%;
+    top:0;
+    height:65px;
+    color:#e3f6f5;
+    font-family:georgia;
+    display:flex;
+    padding:5px;
+  }
+  
+  .header ul li a{
+    float: left;
+    display: block;
+    color: #e3f6f5;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.icon {
+    background-color:#e3f6f5;
+    border-radius:40px;
+    width: 63px;
+    height:63px;
+    margin:0px 10px;
+}
+.tes-link a:link {
+    color:#e3f6f5;
+    text-decoration:none;
+}
+.tes-link a:visited{
+    color:#e3f6f5;
+    text-decoration:none;
+}
+.tes-link a:hover{
+    color:#ffd803;
+    text-decoration:none;
+}
+
+.header ul li ul {
+    list-style:none;
+    text-align:left;
+}
 .clear{
     clear:both;
 }
 
-.recommend{
+
+.title {
+    padding-top:15px;
+}
+.about {
+    padding-top:10px;
+}
+
+.tapioca {
+    padding-top:5px;
+}
+.shop {
+    padding-top:5px;
+    text-align:center;
+    border-bottom:15px dotted #272343;
+}
+.shop h2{
+    font-size:50px;
+    margin-top:150px;
+}
+.img-tapi {
+    width:550px;
+    height:350px;
+    margin-left:10px;
+}
+
+.koi-the {
+    padding-top:5px;
+}
+.koi{
     display:flex;
 }
 
-.recommend2 {
+
+
+.img{
+    width:200px;
+    height:200px;
+    margin:5px;
+    padding-top:90px;
+    padding-left:500px;
+}
+
+.HEYTEA{
+    padding-top:5px;
+    margin-top:200px;
+}
+.hey{
     display:flex;
 }
+.logo-hey{
+    width:400px;
+    height:100px;
+    margin:5px;
+    padding-top:90px;
+    padding-left:300px;
+}
+
+.sanchen{
+    padding-top:5px;
+    margin-top:200px;
+}
+.san{
+    display:flex;
+}
+.logo-san{
+    width:400px;
+    height:150px;
+    margin:5px;
+    padding-top:90px;
+    padding-left:300px;
+}
+.LiHO{
+    padding-top:5px;
+    margin-top:200px;
+}
+.liho{
+    display:flex;
+}
+.logo-liho{
+    width:270px;
+    height:200px;
+    margin:5px;
+    padding-top:90px;
+    padding-left:500px;
+}
+.about p{
+    font-size:17px;
+    color:#272343;
+}
+.about h4{
+    font-size:20px;
+    color:#272343;
+}
+.content {
+    display:flex;
+}
+.menu-list {
+    list-style-type: disc;
+    display:flex;
+    margin:40px;
+}
+
+.menu-list li{
+    width:210px;
+    height:20px;
+    text-align:center;
+    margin-right:10px;
+}
+
+.specifics{
+    background-color:#bae8e8;
+    margin:5px;
+}
+.specifics h4{
+    text-align:center;
+}
+.img-koi {
+    width:400px;
+    height:250px;
+    margin-left:10px;
+    margin-top:20px;
+}
+.img-heytea{
+    width:315px;
+    height:250px;
+    margin-left:10px;
+}
+.sanchen-menu {
+    padding:30px;
+}
+
+.sanchen-menu ol {
+    list-style:none;
+    display:flex;
+    text-align:center;
+}
+
+.sanchen-menu ol li{
+    margin:20px;
+    padding:10px;
+    text-align:center;
+    background-color:#bae8e8;
+}
+.arrow{
+    width:20px;
+    height:20px;
+    padding:5px;
+    margin-top:30px;
+}
+.img-sanchen{
+    width:300px;
+    height:235px;
+    margin-left:10px;
+}
+
+.img-liho{
+    width: 350px;
+    height:280px;
+    margin-left:10px;
+}
+.liho-menu{
+    display:flex;
+    margin-left:350px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.recommend{
+    display:flex;
+    margin-bottom:25px;
+}
+
+
+
+.btn-square-shadow {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #ffd803;/*ボタン色*/
+    color: #272343;
+    border-bottom: solid 4px #627295;
+    border-radius: 10px;
+    margin:20px 5px;
+    font-size:25px;
+  }
+  .btn-square-shadow:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+  }
+
+  .btn-menu{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #ffea70;/*ボタン色*/
+    color: #272343;
+    border-bottom: solid 4px #627295;
+    border-radius: 10px;
+    margin:5px 3px;
+    font-size:15px;
+    margin-left:420px;
+  }
+  .btn-square-shadow:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+  }
+
+  .btn-menu-liho{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #ffea70;/*ボタン色*/
+    color: #272343;
+    border-bottom: solid 4px #627295;
+    border-radius: 10px;
+    margin:5px 3px;
+    font-size:15px;
+  }
+  .btn-square-shadow:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+  }
+
